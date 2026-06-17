@@ -424,10 +424,23 @@ footer p{
     box-shadow:0 8px 20px rgba(0,0,0,.1);
 }
 .source-map{
-    text-align:center;
-    margin:35px auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:40px auto;
+    width:100%;
 }
 
+.source-map img{
+    display:block;
+    width:100%;
+    max-width:500px;
+    height:auto;
+    margin:0 auto;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
 .map-caption{
     margin-top:15px;
     color:#00695c;
