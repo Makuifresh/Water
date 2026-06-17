@@ -416,33 +416,29 @@ footer p{
     transform:translateY(-2px);
     opacity:.9;
 }
-
-.source-map img{
-    width:100%;
-    max-width:500px;
-    border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,.1);
-}
 .source-map{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    margin:40px auto;
     width:100%;
+    text-align:center;
+    margin:40px auto;
 }
 
 .source-map img{
     display:block;
     width:100%;
-    max-width:500px;
+    max-width:450px;
     height:auto;
     margin:0 auto;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,.1);
 }
+
 .map-caption{
     margin-top:15px;
     color:#00695c;
     font-weight:600;
+    text-align:center;
+}
+
+.source-map{
+    border:2px solid red;
 }
