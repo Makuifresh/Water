@@ -390,3 +390,29 @@ footer p{
     font-weight:600;
     z-index:9999;
 }
+#contact a{
+    color:#00695c;
+    font-weight:600;
+    text-decoration:none;
+}
+
+#contact a:hover{
+    text-decoration:underline;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    background:#25D366;
+    color:white !important;
+    padding:12px 24px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    margin:10px 0;
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:translateY(-2px);
+    opacity:.9;
+}
